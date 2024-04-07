@@ -13,7 +13,7 @@ int main() {
     words.push_back(word);
   }
 
-  sort(words.begin(), words.end(), [](string a, string b) {
+  sort(words.begin(), words.end(), [](const string& a, const string& b) {
     if (a.length() == b.length()) {
       return a < b;
     }
