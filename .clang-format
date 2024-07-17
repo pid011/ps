@@ -5,3 +5,4 @@ PointerAlignment: Left
 ReferenceAlignment: Left
 ColumnLimit: 100
 AllowShortFunctionsOnASingleLine: InlineOnly
+IndentWidth: 4
